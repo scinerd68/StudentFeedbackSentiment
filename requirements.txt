@@ -1,0 +1,4 @@
+torch
+datasets==2.9.0
+gensim
+py_vncorenlp

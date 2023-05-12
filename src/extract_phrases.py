@@ -1,7 +1,7 @@
 import py_vncorenlp
 
 
-model = py_vncorenlp.VnCoreNLP(annotators=["wseg", "pos"], save_dir='/content')
+model = py_vncorenlp.VnCoreNLP(annotators=["wseg", "pos"], save_dir='/VnCoreNLP')
 
 
 def get_pos(annotated):

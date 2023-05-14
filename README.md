@@ -16,3 +16,34 @@ Overall Pipeline:
 - Semantic orientation SO(d) of a sentence is the sum of semantic orientations of all phrases extracted from the sentence.
 
 In this repo, similarity between phrases is computed using Word2Vec, as opposed to the PMI in the original paper.
+
+## Result
+The below table represents results from all methods:
+<table>
+    <thead>
+        <tr>
+            <th colspan=1>PMI</th>
+            <th colspan=4>Word2Vec</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan=1 rowspan=2>Using Training Data</td>
+            <td colspan=2 styles="">PhoW2V</td>
+            <td colspan=2>Custom Model</td>
+        </tr>
+        <tr>
+            <td colspan=1>Method 1</td>
+            <td colspan=1>Method 2</td>
+            <td colspan=1>Method 1</td>
+            <td colspan=1>Method 2</td>
+        </tr>
+        <tr>
+            <td colspan=1>65.7</td>
+            <td colspan=1>55.4</td>
+            <td colspan=1>55.1</td>
+            <td colspan=1>80.5</td>
+            <td colspan=1>79.9</td>
+        </tr>
+    </tbody>
+</table>
